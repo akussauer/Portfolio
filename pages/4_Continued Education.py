@@ -39,4 +39,3 @@ st.write("**Location:** Kelowna, BC, Canada")
 st.markdown("**Date:** September 26–28, 2019")
 st.write(" ")
 
-
