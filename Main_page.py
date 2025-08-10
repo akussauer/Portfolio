@@ -11,7 +11,7 @@ st.set_page_config(
 st.image("assets/headshot.JPEG", width=200)
 st.title("Welcome to My Portfolio")
 # --- Projects ---
-st.markdown("### Aboot Me")
+st.markdown("### About Me")
 st.write("""
         Welcome to my portfolio! I am a sports performance analyst with a passion for data analysis and sports performance. 
         I have a strong background in kinesiology, having completed my BA at Vancouver Island University, and have pursued various certifications in strength and conditioning, sports nutrition, and coaching.
