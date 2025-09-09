@@ -11,6 +11,15 @@ st.set_page_config(
 st.header("💼 Work Experience")
 st.write("")
 
+st.markdown("##### Biomechanics Support")
+st.markdown("GB Cycling: Aug 2025 - Present")  # Removed space around colon
+gb_cycling = [
+    "Provided project support for the biomechanics team",
+    "Assisted with data collection and statistical analysis for cycling performance",
+]
+st.markdown("\n".join([f"- {skill}" for skill in gb_cycling]))
+st.write("")
+
 st.markdown("##### Performance Analyst")
 st.markdown("AquaticsGB: Jan 2025 - Present")  # Removed space around colon
 aquatics_gb = [
