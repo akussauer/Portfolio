@@ -15,10 +15,11 @@ skills = [
     "Experienced in working in teams and with the public",
     "Knowledgeable in the field of sports performance analysis",
     "Skilled in data analysis and interpretation",
-    "Familiar with procedures and workflow of large teams and organizations",  # Changed to North American spelling for consistency
+    "Familiar with procedures and workflow of large teams and organizations",
     "Good time management skills",
     "Experienced at coding in Python",
-    "Skilled in Power BI and Tableau",  # Added space in "Power BI"
+    "Familiar with Qt Framework, SQL, and cloud APIs",
+    "Skilled in Power BI and Tableau",
     "Technical skills unique to prosthetics and orthotics",
     "Trained in first aid"
 ]
@@ -37,9 +38,9 @@ edu = {
     "Sports Nutrition Coach Certification (June 2021)": "National Academy of Sports Medicine",
     "Deep Tissue Massage: Myofascial Release Certificate (Dec 2021)": "Michael Eric Everson",
     "Group Fitness Instructor Certification (Oct 2021)": "British Columbia Recreation & Parks Association",
-    "BA Kinesiology (2019)": "Vancouver Island University, Nanaimo, Canada",  # Replaced colon with comma
+    "BA Kinesiology (2019)": "Vancouver Island University, Nanaimo, Canada", 
     "Coaching Athletes with Disabilities (2018)": "National Coaching Certification Program, Nanaimo, Canada",
-    "Tri-City Policy Statement: Ethical Conduct for Research Involving Humans (2017)": "Vancouver Island University, Nanaimo, Canada",  # Fixed "Reseach"
+    "Tri-City Policy Statement: Ethical Conduct for Research Involving Humans (2017)": "Vancouver Island University, Nanaimo, Canada",
     "Fundamental Movement Skills (2015)": "National Coaching Certification Program, Nanaimo, Canada",
 }
 for title, org in edu.items():
@@ -48,6 +49,7 @@ for title, org in edu.items():
 # --- Work Experience ---
 st.header("💼 Work Experience")
 work_experience = {
+    "Biomechanics and data support (June 2025 - September 2025)": "GB Track Cycling",
     "Performance Analyst (Jan 2025 - Present)": "Aquatics GB, Manchester, England",
     "Skills Coach and Support Worker (Nov 2021 - Sept 2024)": "Canucks Autism Network, Nanaimo and Victoria, Canada",
     "Sports Field Maintenance & Machine Operator (2021 - 2024)": "City of Nanaimo, Nanaimo, Canada",
