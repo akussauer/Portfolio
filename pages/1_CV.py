@@ -49,13 +49,13 @@ for title, org in edu.items():
 # --- Work Experience ---
 st.header("💼 Work Experience")
 work_experience = {
-    "Biomechanics and data support (June 2025 - September 2025)": "GB Track Cycling",
+    "Biomechanics and data support (Aug 2025 - Sept 2025)": "GB Track Cycling",
     "Performance Analyst (Jan 2025 - Present)": "Aquatics GB, Manchester, England",
     "Skills Coach and Support Worker (Nov 2021 - Sept 2024)": "Canucks Autism Network, Nanaimo and Victoria, Canada",
     "Sports Field Maintenance & Machine Operator (2021 - 2024)": "City of Nanaimo, Nanaimo, Canada",
     "Lifeguard & Swim Instructor (2015 - 2021)": "City of Nanaimo, Nanaimo, Canada",
-    "Parks Ambassador (April - July 2020)": "City of Nanaimo, Nanaimo, Canada",
-    "Camp Leader III (July - August 2020)": "City of Nanaimo, Nanaimo, Canada",
+    "Parks Ambassador (Apr - July 2020)": "City of Nanaimo, Nanaimo, Canada",
+    "Camp Leader III (July - Aug 2020)": "City of Nanaimo, Nanaimo, Canada",
     "Clinical Assistant & Technician (2019 - 2021)": "B.D. Mitchell Prosthetics & Orthotics, Nanaimo, Canada",
 }
 for role, location in work_experience.items():
