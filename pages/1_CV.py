@@ -28,9 +28,10 @@ st.markdown("\n".join([f"- {skill}" for skill in skills]))
 # --- Education and Training ---
 st.header("🎓 Education and Training")
 edu = {
-    "MSc Sports Performance Analytics (Sept 2025 - Present)": "University of Chester, Chester, England",  # Removed period after MSc
+    "PhD Candidate in Sports Performance Analysis & Data Science (Jan 2026 - Present)": "Heriot-Watt University, Edinburgh, Scotland",
+    "MSc Sports Performance Analytics (Oct 2024 - Oct 2025)": "University of Chester, Chester, England",
     "NSCA Certified Strength & Conditioning Specialist (July 2024)": "National Strength & Conditioning Association, Victoria, Canada",
-    "Anti-Racism in Sport (Jan 2024)": "National Coaching Certification Program, Vancouver, BC",  # Fixed "Programe" typo
+    "Anti-Racism in Sport (Jan 2024)": "National Coaching Certification Program, Vancouver, BC",
     "Weightlifting Competition Introduction Workshop (Nov 2023)": "National Coaching Certification Program, Vancouver, BC",
     "CPR-C and AED (2023)": "City of Nanaimo, Nanaimo, Canada",
     "National Lifeguard Certification (2022)": "City of Nanaimo, Nanaimo, Canada",
