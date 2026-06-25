@@ -7,11 +7,10 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 st.title("📄 Curriculum Vitae")
-st.markdown("#### Alex Kussauer")
 
 # --- Skills and Abilities ---
 st.markdown("""
-            # 🛠️ Skills and Abilities
+            ## 🛠️ Skills and Abilities
             - Experienced at coding in Python (data analysis, statistics, machine learning, web scraping, visualization, GUI development, dashboards)
             - Experienced in working in teams and with the public
             - Knowledgeable in the field of sports performance analysis
@@ -24,7 +23,7 @@ st.markdown("""
 
             """)
 
-st.markdown("# 🎓 Education and Training")
+st.markdown("## 🎓 Education and Training")
 edu = {
     "PhD Candidate in Sports Performance Analysis & Data Science (Jan 2026 - Present)": "Heriot-Watt University, Edinburgh, Scotland",
     "MSc Sports Performance Analytics (Oct 2024 - Oct 2025)": "University of Chester, Chester, England",
@@ -46,7 +45,7 @@ for title, org in edu.items():
     st.markdown(f"**{title}**  \n{org}")
 
 # --- Work Experience ---
-st.header("💼 Work Experience")
+st.markdown("## 💼 Work Experience")
 work_experience = {
     "Biomechanics and Data Support (Aug 2025 - Sept 2025)": "British Cycling, Manchester, England",
     "Performance Analyst (ad hoc) (Jan 2025 - Present)": "Aquatics GB, Manchester, England",

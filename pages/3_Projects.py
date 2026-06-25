@@ -8,9 +8,7 @@ st.set_page_config(
 )
 
 # --- Projects ---
-st.markdown("# 📂 Projects")
-st.divider()
-st.markdown("## Current Projects")
+st.markdown("## 📂 Current Projects")
 
 # --- Scoping Review of Swimming Performance Analysis ---
 st.markdown("""
@@ -98,7 +96,7 @@ st.divider()
 
 # --- TAP (Teaching Analysis Program) ---
 st.markdown("""
-            ### 🧑‍🏫 Teaching Analysis Program (TAP)")
+            ### 🧑‍🏫 Teaching Analysis Program (TAP)
             ##### March 2026
             This program is a custom software solution designed to analyze teaching video footage in physical education and coaching sessions. The goal is to help educators and coaches quickly analyze their teaching sessions and understand the effectiveness of their teaching methods. 
             
