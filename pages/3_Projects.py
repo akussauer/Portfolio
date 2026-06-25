@@ -16,10 +16,10 @@ st.divider()
 st.markdown("""
             ### 🏊‍♂️ Scoping Review of Swimming Performance Analysis
             ##### March 2026 - Present
-
             This project is a scoping review of the literature on swimming performance analysis, with a focus on the use of technology and data analysis techniques. The aim is to provide a comprehensive overview of the current state of the field and identify gaps in the literature for future research.
-            ---
-
+            """)
+st.divider()
+st.markdown("""
             ### 🏊‍♂️ Pacing Patterns in Elite Level Swimming
             ##### January 2026 - Present
             This project examines the pacing strategies employed by elite swimmers during competition, focusing on how athletes manage their energy expenditure and maintain performance throughout different segments of a race.
