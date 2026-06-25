@@ -97,16 +97,16 @@ st.markdown("##### March 2026 ")
 st.write("This program is a custom software solution designed to analyze teaching video footage in physical education and coaching sessions. The goal is to help educators and coaches quickly analyze their teaching sessions and understand the effectiveness of their teaching methods.")
 st.markdown("### Features:")
 st.markdown("""
-            **Lesson & subject timers** — A top-level lesson timer runs alongside a per-subject timer. Starting or stopping the lesson timer automatically starts or stops the active subject timer. Switching to a different subject hands the timer off seamlessly. <br>
-            **Subject navigator** — A collapsible panel lists all subjects in the current lesson. Subjects can be reordered by drag-and-drop, renamed inline, and deleted via right-click. <br>
-            **Markdown note editor** — Each subject has a rich plain-text editor with live Markdown syntax highlighting, bracket auto-pairing, and spell-check. <br>
-            **Session types** — Every subject can be tagged with a session type (Lecture, Exercise, Demo, etc.) which is used in the breakdown charts. <br>
-            **Lesson breakdown charts** — On export, two charts are generated automatically: <br>
+            - **Lesson & subject timers** — A top-level lesson timer runs alongside a per-subject timer. Starting or stopping the lesson timer automatically starts or stops the active subject timer. Switching to a different subject hands the timer off seamlessly. <br>
+            - **Subject navigator** — A collapsible panel lists all subjects in the current lesson. Subjects can be reordered by drag-and-drop, renamed inline, and deleted via right-click. <br>
+            - **Markdown note editor** — Each subject has a rich plain-text editor with live Markdown syntax highlighting, bracket auto-pairing, and spell-check. <br>
+            - **Session types** — Every subject can be tagged with a session type (Lecture, Exercise, Demo, etc.) which is used in the breakdown charts. <br>
+            - **Lesson breakdown charts** — On export, two charts are generated automatically: <br>
                 - *Pie chart* — time distribution across subjects (switches to a legend for 5+ subjects). <br>
                 - *Bar chart* — total minutes per session type, with each bar a distinct colour. <br>
-            **Multiple export formats** — HTML, PDF (via wkhtmltopdf), DOCX (via python-docx), and Markdown. All formats include the breakdown charts in a dedicated section at the start of the document. <br>
-            **Persistent save/load** — Lessons are stored as .json files, preserving all subject titles, content, session types, and elapsed times. <br>
-            **Configurable hotkeys** — Key bindings are defined in config.json and can be changed without editing source code. <br>
+            - **Multiple export formats** — HTML, PDF (via wkhtmltopdf), DOCX (via python-docx), and Markdown. All formats include the breakdown charts in a dedicated section at the start of the document. <br>
+            - **Persistent save/load** — Lessons are stored as .json files, preserving all subject titles, content, session types, and elapsed times. <br>
+            - **Configurable hotkeys** — Key bindings are defined in config.json and can be changed without editing source code. <br>
             """,
 )
 
