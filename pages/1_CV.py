@@ -12,12 +12,11 @@ st.markdown("#### Alex Kussauer")
 # --- Skills and Abilities ---
 st.header("🛠️ Skills and Abilities")
 skills = [
+    "Experienced at coding in Python (data analysis, statistics, machine learning, web scraping, visualization, GUI development, dashboards)",
     "Experienced in working in teams and with the public",
     "Knowledgeable in the field of sports performance analysis",
-    "Skilled in data analysis and interpretation",
     "Familiar with procedures and workflow of large teams and organizations",
     "Good time management skills",
-    "Experienced at coding in Python",
     "Familiar with Qt Framework, SQL, and cloud APIs",
     "Skilled in Power BI and Tableau",
     "Technical skills unique to prosthetics and orthotics",
@@ -50,8 +49,8 @@ for title, org in edu.items():
 # --- Work Experience ---
 st.header("💼 Work Experience")
 work_experience = {
-    "Biomechanics and data support (Aug 2025 - Sept 2025)": "GB Track Cycling",
-    "Performance Analyst (Jan 2025 - Present)": "Aquatics GB, Manchester, England",
+    "Biomechanics and Data Support (Aug 2025 - Sept 2025)": "British Cycling, Manchester, England",
+    "Performance Analyst (ad hoc) (Jan 2025 - Present)": "Aquatics GB, Manchester, England",
     "Skills Coach and Support Worker (Nov 2021 - Sept 2024)": "Canucks Autism Network, Nanaimo and Victoria, Canada",
     "Sports Field Maintenance & Machine Operator (2021 - 2024)": "City of Nanaimo, Nanaimo, Canada",
     "Lifeguard & Swim Instructor (2015 - 2021)": "City of Nanaimo, Nanaimo, Canada",

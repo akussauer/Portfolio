@@ -11,21 +11,21 @@ st.set_page_config(
 st.header("💼 Work Experience")
 st.write("")
 
-st.markdown("##### Biomechanics Support")
+st.markdown("##### Biomechanics and Data Support (ad hoc)")
 st.markdown("GB Cycling: Aug 2025 - Sept 2025")
 gb_cycling = [
-    "Provided project support for the biomechanics team",
+    "Provided project support for the biomechanics team at British Cycling in Manchester, England",
     "Assisted with data collection and statistical analysis for cycling performance",
+    "Analyzed Track cycling starts and performance indicators within the team sprint event"
 ]
 st.markdown("\n".join([f"- {skill}" for skill in gb_cycling]))
 st.write("")
 
-st.markdown("##### Performance Analyst")
+st.markdown("##### Performance Analyst (ad hoc)")
 st.markdown("AquaticsGB: Jan 2025 - Present")
 aquatics_gb = [
     "Perform notational analysis of swimming competitions",
-    "Develop and implement custom data management programs", 
-    "Create custom visuals and reports for coaches and athletes", 
+    "Develop custom programs for performance prediction and data visualization", 
 ]
 st.markdown("\n".join([f"- {skill}" for skill in aquatics_gb]))
 st.write("")
