@@ -10,9 +10,7 @@ st.set_page_config(
 # --- Contact Information ---
 st.header("📫 Contact Information")
 st.divider()
-st.markdown("""
-            If you'd like more information about me, feel free to reach out!
-            **Email:** akussauer@gmail.com
-            **LinkedIn:** [https://www.linkedin.com/in/lex-kussauer-771b782ab/](https://www.linkedin.com/in/alex-kussauer-771b782ab/)
-            **GitHub:** [https://github.com/akussauer1](https://github.com/akussauer)
-            """)
+st.markdown("If you'd like more information about me, feel free to reach out!")
+st.markdown("**Email:** akussauer@gmail.com")
+st.markdown("**LinkedIn:** [Alex Kussauer](https://www.linkedin.com/in/alex-kussauer-771b782ab/)")
+st.markdown("**GitHub:** [akussauer](https://github.com/akussauer)")

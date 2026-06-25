@@ -9,8 +9,8 @@ st.set_page_config(
 
 # --- Projects ---
 st.markdown("# 📂 Projects")
-st.markdown("## Current Projects")
 st.divider()
+st.markdown("## Current Projects")
 
 # --- Scoping Review of Swimming Performance Analysis ---
 st.markdown("""
@@ -20,7 +20,7 @@ st.markdown("""
             
             """)
 
-st.divider()
+st.write("")
 
 # --- Pacing Patterns in Elite Level Swimming ---
 st.markdown("""
@@ -43,7 +43,7 @@ st.markdown("""
             
             """)
 
-st.divider()
+st.write("")
 
 # --- Ripple Race analysis Program ---
 st.markdown("""
@@ -72,7 +72,7 @@ st.markdown("""
             
             """)
 
-st.divider()
+st.write("")
 
 # --- Review Assistant Program ---
 st.markdown("""
@@ -120,7 +120,7 @@ st.link_button(
     "Download TAP on GitHub",
     "https://github.com/akussauer/tap"
     )
-st.divider()
+st.write("")
 
 # --- Performance Analysis of Swimming Relays ---
 st.markdown("""
@@ -159,7 +159,7 @@ with open("assets/Performance_prediction_mens_4x100mFR.pdf", "rb") as file:
         file_name="Performance_Prediction_Dissertation.pdf",
         mime="application/pdf"
     )
-st.divider()
+st.write("")
 
 # --- Performance Analysis of Track Cycling ---
 st.markdown("""
@@ -198,7 +198,7 @@ with open("assets/Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female
         file_name="Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female_Track_Cyclists.pdf",
         mime="application/pdf"
     )
-st.divider()
+st.write("")
 
 # --- Start technique in track cycling ---
 st.markdown("""
@@ -208,7 +208,7 @@ st.markdown("""
             
             """)
 
-st.divider()
+st.write("")
 
 # --- Database Validation ---
 st.markdown("""
@@ -243,7 +243,7 @@ with open("assets/Database_Validation_Example.pdf", "rb") as file:
         file_name="Database_Validation_Example.pdf",
         mime="application/pdf"
     )
-st.divider()
+st.write("")
 
 # ---- Longitudinal Analysis of KO Rates in Amateur Boxing ---
 st.markdown("""
