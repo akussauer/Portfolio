@@ -92,8 +92,6 @@ st.markdown("""
             
             """)
 
-st.divider()
-
 # COMPLETED PROJECTS
 st.markdown("## Completed Projects")
 st.divider()
@@ -118,7 +116,6 @@ st.markdown("""
             
             """)
 
-st.divider()
 st.link_button(
     "Download TAP on GitHub",
     "https://github.com/akussauer/tap"
@@ -154,7 +151,6 @@ st.markdown("""
             - Models recommended as training-support tools rather than definitive competition predictors, given out-of-sample error margins comparable to the SWC
 
             """)
-st.divider()
 
 with open("assets/Performance_prediction_mens_4x100mFR.pdf", "rb") as file:
     st.download_button(
@@ -195,7 +191,6 @@ st.markdown("""
             
             """)
 
-st.divider()
 with open("assets/Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female_Track_Cyclists.pdf", "rb") as file:
     st.download_button(
         label="📄 Download My Case Study",
@@ -241,7 +236,6 @@ st.markdown("""
 
             """)
 
-st.divider()
 with open("assets/Database_Validation_Example.pdf", "rb") as file:
     st.download_button(
         label="📄 Download Aquatics Project Summary",
@@ -274,7 +268,6 @@ st.markdown("""
 
             """)
 
-st.divider()
 with open("assets/Longitudinal_boxing_KO_Analysis.pbix", "rb") as file:
     st.download_button(
         label="📄 Download Boxing Project",
