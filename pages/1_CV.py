@@ -26,7 +26,7 @@ st.markdown("""
 
 st.markdown("""
             # 🎓 Education and Training
-            **PhD Candidate in Sports Performance Analysis & Data Science** (Jan 2026 - Present)
+            **PhD Candidate in Sports Performance Analysis & Data Science** (Jan 2026 - Present) /n
             Heriot-Watt University, Edinburgh, Scotland
 
             **MSc Sports Performance Analytics** (Oct 2024 - Oct 2025)
@@ -99,5 +99,5 @@ st.markdown("""
 
             **Clinical Assistant & Technician** (2019 - 2021)
             B.D. Mitchell Prosthetics & Orthotics, Nanaimo, Canada
-            
+
             """)
