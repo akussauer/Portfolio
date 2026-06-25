@@ -16,6 +16,7 @@ st.divider()
 st.markdown("""
             ### 🏊‍♂️ Scoping Review of Swimming Performance Analysis
             ##### March 2026 - Present
+
             This project is a scoping review of the literature on swimming performance analysis, with a focus on the use of technology and data analysis techniques. The aim is to provide a comprehensive overview of the current state of the field and identify gaps in the literature for future research.
             ---
 
@@ -26,7 +27,7 @@ st.markdown("""
             ### 3 main steps:
             ##### 1. Data Collection & Preparation
             - Data collected from elite swimming competitions; this was done by scraping the official results (World Aquatics Database) and extracting race information
-            - Data was cleaned and prepared for analysis using Python (Pandas).",
+            - Data was cleaned and prepared for analysis using Python (Pandas).
             - Race data was categorized (stroke, distance, and gender) and then normalized based on z-scores
             - Normalized data was clustered using k-means clustering to identify distinct pacing patterns
             - Descriptive statistics were generated to summarize the characteristics of each pacing pattern
