@@ -8,8 +8,7 @@ st.set_page_config(
 )
 
 # --- Contact Information ---
-st.header("📫 Contact Information")
-st.divider()
+st.markdown("## 📫 Contact Information")
 st.markdown("If you'd like more information about me, feel free to reach out!")
 st.markdown("**Email:** akussauer@gmail.com")
 st.markdown("**LinkedIn:** [Alex Kussauer](https://www.linkedin.com/in/alex-kussauer-771b782ab/)")
