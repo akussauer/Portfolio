@@ -6,12 +6,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-# --- Continued Education ---
-st.header("Continued Education")
-st.divider()
+# --- Conferences ---
+st.markdown("## 📰 Conferences")
 
-st.markdown("##### National Strength & Conditioning Association - National Conference 2023")
-st.write("**Location:** Las Vegas, NV, USA")
+st.markdown("#### National Strength & Conditioning Association - National Conference 2023")
+st.markdown("**Location:** Las Vegas, NV, USA")
 st.markdown("**Date:** July 12–15, 2023")
 
 NSCA_2023_content = {
@@ -32,10 +31,7 @@ for title, speaker in NSCA_2023_content.items():
     st.markdown(f"**{title}**  \n{speaker}")
 
 st.write(" ")
-st.write(" ")
 
-st.markdown("##### British Columbia Prosthetics & Orthotics Association - Annual Conference 2019")
-st.write("**Location:** Kelowna, BC, Canada")
+st.markdown("#### British Columbia Prosthetics & Orthotics Association - Annual Conference 2019")
+st.markdown("**Location:** Kelowna, BC, Canada")
 st.markdown("**Date:** September 26–28, 2019")
-st.write(" ")
-

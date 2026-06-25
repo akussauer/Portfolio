@@ -10,21 +10,21 @@ st.set_page_config(
 # --- Work Experience ---
 st.header("💼 Work Experience")
 st.markdown("""
+            ##### Performance Analyst (ad hoc)
+            AquaticsGB: Jan 2025 - Present
+
+            - Perform notational analysis of swimming competitions
+            - Develop custom programs for performance prediction and data visualization
+            """)
+st.write("")
+
+st.markdown("""
             ##### Biomechanics and Data Support (ad hoc)
             GB Cycling: Aug 2025 - Sept 2025
 
             - Provided project support for the biomechanics team at British Cycling in Manchester, England
             - Assisted with data collection and statistical analysis for cycling performance
             - Analyzed Track cycling starts and performance indicators within the team sprint event
-            """)
-st.write("")
-
-st.markdown("""
-            ##### Performance Analyst (ad hoc)
-            AquaticsGB: Jan 2025 - Present
-
-            - Perform notational analysis of swimming competitions
-            - Develop custom programs for performance prediction and data visualization
             """)
 st.write("")
 

@@ -20,7 +20,6 @@ st.write("""
         In my own time, I enjoy resistance training, golfing, eating good food, and spending time with my family and friends.
          """)
 st.write("")
-st.write("")
 
 st.markdown("### Interests")
 st.write("Recently, I have been focusing on a few key areas of interest: coding, data analysis, and statistics. "

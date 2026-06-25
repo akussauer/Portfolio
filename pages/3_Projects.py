@@ -91,8 +91,8 @@ st.markdown("""
             """)
 
 # COMPLETED PROJECTS
-st.markdown("## Completed Projects")
 st.divider()
+st.markdown("## 📂 Completed Projects")
 
 # --- TAP (Teaching Analysis Program) ---
 st.markdown("""
