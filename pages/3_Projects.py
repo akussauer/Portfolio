@@ -13,27 +13,25 @@ st.markdown("## Current Projects")
 st.divider()
 
 # --- Scoping Review of Swimming Performance Analysis ---
-st.markdown("### 🏊‍♂️ Scoping Review of Swimming Performance Analysis")
-st.markdown("##### March 2026 - Present")
-st.write("This project is a scoping review of the literature on swimming performance analysis, with a focus on the use of technology and data analysis techniques. The aim is to provide a comprehensive overview of the current state of the field and identify gaps in the literature for future research.")
+st.markdown("""
+            ### 🏊‍♂️ Scoping Review of Swimming Performance Analysis
+            ##### March 2026 - Present
+            This project is a scoping review of the literature on swimming performance analysis, with a focus on the use of technology and data analysis techniques. The aim is to provide a comprehensive overview of the current state of the field and identify gaps in the literature for future research.
+            ---
 
-st.divider()
+            ### 🏊‍♂️ Pacing Patterns in Elite Level Swimming
+            ##### January 2026 - Present
+            This project examines the pacing strategies employed by elite swimmers during competition, focusing on how athletes manage their energy expenditure and maintain performance throughout different segments of a race.
 
-# Pacing Patterns in Elite Level Swimming
-st.markdown("### 🏊‍♂️ Pacing Patterns in Elite Level Swimming")
-st.markdown("##### January 2026 - Present")
-st.write("This project examines the pacing strategies employed by elite swimmers during competition, focusing on how athletes manage their energy expenditure and maintain performance throughout different segments of a race.")
-st.markdown("### 3 main steps:")
-st.markdown("##### 1. Data Collection & Preparation")
-pacing_1 = [
-    "Data collected from elite swimming competitions; this was done by scraping the official results (World Aquatics Database) and extracting race information.",
-    "Data was cleaned and prepared for analysis using Python (Pandas).",
-    "Race data was categorized (stroke, distance, and gender) and then normalized based on z-scores.",
-    "Normalized data was clustered using k-means clustering to identify distinct pacing patterns.",
-    "Descriptive statistics were generated to summarize the characteristics of each pacing pattern.",
-    "Fisher Information and Random Forest Feature Importance were used to identify the most distictive feature between all pacing profiles."
-]
-st.markdown("\n".join([f"- {skill}" for skill in pacing_1]))
+            ### 3 main steps:
+            ##### 1. Data Collection & Preparation
+            - Data collected from elite swimming competitions; this was done by scraping the official results (World Aquatics Database) and extracting race information
+            - Data was cleaned and prepared for analysis using Python (Pandas).",
+            - Race data was categorized (stroke, distance, and gender) and then normalized based on z-scores
+            - Normalized data was clustered using k-means clustering to identify distinct pacing patterns
+            - Descriptive statistics were generated to summarize the characteristics of each pacing pattern
+            - Fisher Information and Random Forest Feature Importance were used to identify the most distictive feature between all pacing profiles
+            """)
 st.write(" ")
 st.markdown("##### 2. Write up and results have not been finalized yet, but the project is ongoing and will be updated as new findings emerge.")
 
@@ -74,18 +72,17 @@ st.write(" ")
 st.markdown("### 📝 Review Assistant Program")
 st.markdown("##### April 2026 - Present")
 st.write("This program is a custom software solution designed to assist with the review of your own notes. The goal is to help researchers and students quickly analyze and summarize their notes on academic papers, making it easier to identify key points and findings.")
-st.markdown("### Features:")
-review_1 = [
-    "Has a tablular view of all notes, with the ability to seach and filter content based on column values or global keywords",
-    "Dynamically handles column specific widgets based on the data type of the column (e.g., text, number, date, etc.)",
-    "Notes can be exported to CSV or Excel for further analysis or sharing",
-    "Individual rows can be selected and synthesized into a summary using Googles Gwen model (or other LLMs) to generate a summary of the selected notes or a specific column of the selected notes (e.g. finding similarities in the 'Population' columns)",
-    "Supports richtext formatting, Markdown syntax, and spell check for better note-taking",
-]
-st.markdown("\n".join([f"- {skill}" for skill in review_1]))
-st.markdown("#### Status: **Incomplete**")
-st.write("The program is still in development, and the current version is a prototype. The goal is to add more features and improve the user experience in future versions. As such, it is not yet available for public use, but I am happy to share the code with anyone who is interested in testing it out and providing feedback.")
+st.markdown("""
+            ### Features: 
+            - Has a tablular view of all notes, with the ability to seach and filter content based on column values or global keywords
+            - Dynamically handles column specific widgets based on the data type of the column (e.g., text, number, date, etc.)
+            - Notes can be exported to CSV or Excel for further analysis or sharing
+            - Individual rows can be selected and synthesized into a summary using Googles Gwen model (or other LLMs) to generate a summary of the selected notes or a specific column of the selected notes (e.g. finding similarities in the 'Population' columns)
+            - Supports richtext formatting, Markdown syntax, and spell check for better note-taking
 
+            #### Status: **Incomplete**
+            The program is still in development, and the current version is a prototype. The goal is to add more features and improve the user experience in future versions. As such, it is not yet available for public use, but I am happy to share the code with anyone who is interested in testing it out and providing feedback.
+            """)
 st.divider()
 # COMPLETED PROJECTS
 st.markdown("## Completed Projects")
@@ -97,16 +94,16 @@ st.markdown("##### March 2026 ")
 st.write("This program is a custom software solution designed to analyze teaching video footage in physical education and coaching sessions. The goal is to help educators and coaches quickly analyze their teaching sessions and understand the effectiveness of their teaching methods.")
 st.markdown("### Features:")
 st.markdown("""
-            - **Lesson & subject timers** — A top-level lesson timer runs alongside a per-subject timer. Starting or stopping the lesson timer automatically starts or stops the active subject timer. Switching to a different subject hands the timer off seamlessly. <br>
-            - **Subject navigator** — A collapsible panel lists all subjects in the current lesson. Subjects can be reordered by drag-and-drop, renamed inline, and deleted via right-click. <br>
-            - **Markdown note editor** — Each subject has a rich plain-text editor with live Markdown syntax highlighting, bracket auto-pairing, and spell-check. <br>
-            - **Session types** — Every subject can be tagged with a session type (Lecture, Exercise, Demo, etc.) which is used in the breakdown charts. <br>
-            - **Lesson breakdown charts** — On export, two charts are generated automatically: <br>
-                - *Pie chart* — time distribution across subjects (switches to a legend for 5+ subjects). <br>
-                - *Bar chart* — total minutes per session type, with each bar a distinct colour. <br>
-            - **Multiple export formats** — HTML, PDF (via wkhtmltopdf), DOCX (via python-docx), and Markdown. All formats include the breakdown charts in a dedicated section at the start of the document. <br>
-            - **Persistent save/load** — Lessons are stored as .json files, preserving all subject titles, content, session types, and elapsed times. <br>
-            - **Configurable hotkeys** — Key bindings are defined in config.json and can be changed without editing source code. <br>
+            - **Lesson & subject timers** — A top-level lesson timer runs alongside a per-subject timer. Starting or stopping the lesson timer automatically starts or stops the active subject timer. Switching to a different subject hands the timer off seamlessly.
+            - **Subject navigator** — A collapsible panel lists all subjects in the current lesson. Subjects can be reordered by drag-and-drop, renamed inline, and deleted via right-click.
+            - **Markdown note editor** — Each subject has a rich plain-text editor with live Markdown syntax highlighting, bracket auto-pairing, and spell-check. 
+            - **Session types** — Every subject can be tagged with a session type (Lecture, Exercise, Demo, etc.) which is used in the breakdown charts. 
+            - **Lesson breakdown charts** — On export, two charts are generated automatically: 
+                - *Pie chart* — time distribution across subjects (switches to a legend for 5+ subjects).
+                - *Bar chart* — total minutes per session type, with each bar a distinct colour. 
+            - **Multiple export formats** — HTML, PDF (via wkhtmltopdf), DOCX (via python-docx), and Markdown. All formats include the breakdown charts in a dedicated section at the start of the document.
+            - **Persistent save/load** — Lessons are stored as .json files, preserving all subject titles, content, session types, and elapsed times. 
+            - **Configurable hotkeys** — Key bindings are defined in config.json and can be changed without editing source code. 
             """,
 )
 
