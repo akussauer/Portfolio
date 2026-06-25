@@ -112,7 +112,7 @@ st.markdown("\n".join([f"- {skill}" for skill in TAP_1]))
 st.write(" ")
 st.link_button(
     "Download TAP on GitHub",
-    "https://github.com/yourusername/tap"
+    "https://github.com/akussauer/tap"
     )
 st.divider()
 
