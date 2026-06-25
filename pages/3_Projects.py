@@ -101,8 +101,8 @@ TAP_1 = [
     "**Subject navigator** — A collapsible panel lists all subjects in the current lesson. Subjects can be reordered by drag-and-drop, renamed inline, and deleted via right-click.",
     "**Markdown note editor** — Each subject has a rich plain-text editor with live Markdown syntax highlighting, bracket auto-pairing, and spell-check.",
     "**Session types** — Every subject can be tagged with a session type (Lecture, Exercise, Demo, etc.) which is used in the breakdown charts.",
-    """**Lesson breakdown charts** — On export, two charts are generated automatically:
-        - *Pie chart* — time distribution across subjects (switches to a legend for 5+ subjects).
+    """**Lesson breakdown charts** — On export, two charts are generated automatically: <br>
+        - *Pie chart* — time distribution across subjects (switches to a legend for 5+ subjects). <br>
         - *Bar chart* — total minutes per session type, with each bar a distinct colour.""",
     "**Multiple export formats** — HTML, PDF (via wkhtmltopdf), DOCX (via python-docx), and Markdown. All formats include the breakdown charts in a dedicated section at the start of the document.",
     "**Persistent save/load** — Lessons are stored as .json files, preserving all subject titles, content, session types, and elapsed times.",
