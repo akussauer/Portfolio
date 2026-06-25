@@ -112,8 +112,8 @@ st.markdown("\n".join([f"- {skill}" for skill in TAP_1]))
 st.write(" ")
 st.link_button(
     "Download TAP on GitHub",
-    "https://github.com/yourusername/tap",
-    on_click="ignore")
+    "https://github.com/yourusername/tap"
+    )
 st.divider()
 
 # --- Performance Analysis of Swimming Relays ---
